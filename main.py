@@ -1,7 +1,6 @@
 import folium
 from folium.plugins import LocateControl
 
-# Cria o mapa com as coordenadas e o estilo desejado
 map = folium.Map(
     location=[-5.664558763806402, -36.60399399589964],
     tiles="OpenStreetMap",  # Corrigido para 'tiles'
